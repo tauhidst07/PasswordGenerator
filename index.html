@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="content">
+            <h2>Generate a Strong Password!</h2>
+            <div class="input">
+                <input type="text" placeholder="Click the button to gnerate the Password" id="passwordBox">
+            </div>
+            <div class="button">
+                <button class="btn">GENERATE RANDOM PASSWORD</button>
+            </div>
+            <div class="settings">
+                <div class="length">
+                    <p>Password lenght</p>
+                    <div>
+                        <input type="number" min="6" placeholder="min 6" max="30" value="6" id="passwordLength"> 
+                    </div>
+                </div> 
+                <div class="number">
+                    <p>Allow numbers</p>
+                    <div>
+                        <input type="checkbox" id="number">
+                    </div>
+                </div> 
+                <div class="symbol">
+                    <p>Allow symbol</p>
+                    <div>
+                        <input type="checkbox" id="symbol">
+                    </div>
+                </div> 
+                <div class="uppercase">
+                    <p>Allow uppercase</p>
+                    <div>
+                        <input type="checkbox" id="upperCase">
+                    </div>
+                </div> 
+                <div class="lowercase">
+                    <p>Allow lowercase</p>
+                    <div>
+                        <input type="checkbox" id="lowercase">
+                    </div>
+                </div>
+            </div>
+
+</body>
+
+</html>
